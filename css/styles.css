@@ -587,12 +587,16 @@ a {
 .mail-tel:focus {
   color: var(--accent-color);
   outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link:hover,
 .address-mail-tel:hover,
 .footer-mail-tel:hover,
 .mail-tel:hover {
   color: var(--accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order:hover,
 .order:focus {
@@ -601,6 +605,8 @@ a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filters-button:hover,
@@ -611,11 +617,15 @@ a {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   /* border: 1px solid var(--accent-color); */
   outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects-link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filters-button:active {
   color: var(--logo-second-color);
@@ -630,6 +640,8 @@ a {
   background-color: var(--accent-color);
   fill: var(--basic-white-text);
   outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* .customer-icon:focus,
 .customer-icon:hover {
@@ -640,20 +652,30 @@ a {
 .customer-list-link:hover {
   border: 1px solid var(--accent-color);
   outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-list-link:hover .customer-icon {
   fill: var(--accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer-list-link:focus .customer-icon {
   fill: var(--accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-tel:hover .mail-list-icon {
   fill: var(--accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-tel:focus .mail-list-icon {
   fill: var(--accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* оверлей на картках проектів*/
@@ -685,8 +707,11 @@ a {
   color: var(--basic-white-text);
   text-align: left;
 }
+.link-img:focus .projects-overlay,
 .link-img:hover .projects-overlay {
   transform: translateX(0);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* оверлей */
