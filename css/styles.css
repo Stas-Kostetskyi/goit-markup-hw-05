@@ -656,7 +656,7 @@ a {
   fill: var(--accent-color);
 }
 
-/* позиціювання */
+/* оверлей на картках проектів*/
 
 .projects-thumb {
   position: relative;
@@ -682,18 +682,13 @@ a {
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
-  color: #ffffff;
-
-  /* opacity: 1; */
+  color: var(--basic-white-text);
+  text-align: left;
 }
 .link-img:hover .projects-overlay {
   transform: translateX(0);
 }
 
-/* 
-.projects-link:hover .projects-thumb::before {
-  transform: translateX(0);
-} */
 /* оверлей */
 /* .backdrop {
   position: fixed;
