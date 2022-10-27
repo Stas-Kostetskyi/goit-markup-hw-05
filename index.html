@@ -52,7 +52,7 @@
           Ефективні рішення для <br>
           вашого бізнесу
         </h1>
-        <button type="button" class="order backdrop">Замовити послугу</button>
+        <button type="button" class="order">Замовити послугу</button>
       </div>
     </section>
     <!-- Особливості -->
@@ -114,13 +114,25 @@
       <div class="container">
         <h2>Чим ми займаємося</h2>
         <ul class="work">
-          <li class="work-list list"><img src="./images/desctop-app.jpg" alt="Десктопні додатки" width="370"
-              height="294">
+          <li class="work-list list">
+
+            <img src="./images/desctop-app.jpg" alt="Десктопні додатки" width="370" height="294">
+            <div class="work-list-tittle">
+              <h3>Десктопні додатки</h3>
+            </div>
+
           </li>
-          <li class="work-list list"><img src="./images/mobile-app.jpg" alt="Мобільні додатки" width="370" height="294">
+          <li class="work-list list">
+            <img src="./images/mobile-app.jpg" alt="Мобільні додатки" width="370" height="294">
+            <div class="work-list-tittle">
+              <h3>Мобільні додатки</h3>
+            </div>
           </li>
-          <li class="work-list list"><img src="./images/design-solutions.jpg" alt="Дизайнерські рішення" width="370"
-              height="294">
+          <li class="work-list list">
+            <img src="./images/design-solutions.jpg" alt="Дизайнерські рішення" width="370" height="294">
+            <div class="work-list-tittle">
+              <h3>Дизайнерські рішення</h3>
+            </div>
           </li>
         </ul>
       </div>
@@ -360,6 +372,17 @@
       </div>
     </div>
   </footer>
+
+
+  <button data-modal-open>відкрити модальне вікно</button>
+  <div class="beckdrop is-hidden" data-modal>
+    <div class="modal">
+      <p></p>
+      <button data-modal-close>закрити</button>
+    </div>
+  </div>
+
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
