@@ -52,7 +52,7 @@
           Ефективні рішення для <br>
           вашого бізнесу
         </h1>
-        <button type="button" class="order">Замовити послугу</button>
+        <button type="button" data-modal-open class="order">Замовити послугу</button>
       </div>
     </section>
     <!-- Особливості -->
@@ -374,11 +374,13 @@
   </footer>
 
 
-  <button data-modal-open>відкрити модальне вікно</button>
   <div class="beckdrop is-hidden" data-modal>
     <div class="modal">
-      <p></p>
-      <button data-modal-close>закрити</button>
+      <a href="" data-modal-close>
+        <svg class="close-modal" width="30" height="30">
+          <use href="./images/close-sprite.svg#icon-close"></use>
+        </svg>
+      </a>
     </div>
   </div>
 
